@@ -1,0 +1,95 @@
+:root{
+    --primary: #0496FF;
+    --seconadry: #90F3FF;
+    --tertiary: #2A3D45;
+    --accent1: #BFB1C1;
+    --accent2: #FFCF56;
+}
+body{
+    color:var(--tertiary);
+    font-family: 'Rubik', sans-serif;
+}
+.navbar a{
+    color: white;
+}
+h1{
+    font-weight: 900;
+}
+h2, h3{
+    font-weight: 700;
+}
+.gap-10{
+    gap: 10px;
+}
+.headbar{
+    position:sticky;
+    top:0;
+    z-index: 100;
+}
+.brand{
+    color:white;
+    font-size: 3rem;
+    font-family: 'papyrus', sans-serif;
+    src: url(papyrus.ttf);
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--accent2);
+}
+
+.navlink{
+    padding:0 0.5rem;
+    font-weight: 700;
+}
+.navlink:active{
+    color:var(--seconadry);
+}
+
+.col-primary-bg{
+    background-color: var(--primary);
+}
+.island{
+    width: 1000px;
+    margin: auto;
+    padding: 1rem;
+    background-color:white;
+}
+.dots{
+    border-top: 3px dotted var(--accent1);
+}
+.rad{
+    border-radius: 15px;
+}
+.btn-primary {
+	--bs-btn-color: var(--tertiary);
+	--bs-btn-bg: var(--primary);
+	--bs-btn-border-color: var(--primary);
+	--bs-btn-hover-color: var(--seconadry);
+	--bs-btn-hover-bg: #0b5ed7;
+	--bs-btn-hover-border-color: #0a58ca;
+	--bs-btn-focus-shadow-rgb: 49,132,253;
+	--bs-btn-active-color: var(--tertiary);
+	--bs-btn-active-bg: #0a58ca;
+	--bs-btn-active-border-color: #0a53be;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: var(--tertiary);
+	--bs-btn-disabled-bg: var(--primary);
+	--bs-btn-disabled-border-color: var(--primary);
+}
+
+#Me{
+    background-color: #cbf8fa;
+}
+#Tactile{
+    background-color: #b6d6dd;
+}
+#Personal{
+    background-color: #cbf8fa;
+}
+#University{
+    background-color: #b6d6dd;
+}
+

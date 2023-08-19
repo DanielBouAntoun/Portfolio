@@ -1,0 +1,19 @@
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+.vwrapper {
+    display: flex;
+    flex-direction: column;
+  
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  
+    height: 100%;
+  }
+.middle{
+   flex: 1 1 auto;
+   
+}
